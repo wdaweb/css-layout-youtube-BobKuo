@@ -1,0 +1,30 @@
+.night-mode {
+    background: #181818 !important;
+    color: #eee !important;
+}
+
+.night-mode #left {
+    background: #232323 !important;
+}
+
+.night-mode #logo {
+    background: #222 !important;
+}
+
+.night-mode #menu {
+    background: #181818 !important;
+}
+
+.night-mode .item,
+.night-mode .item-catagory {
+    background: transparent !important;
+    color: #eee !important;
+}
+
+.night-mode .item:hover {
+    background: #333 !important;
+}
+
+.night-mode .line {
+    background: #333 !important;
+}
