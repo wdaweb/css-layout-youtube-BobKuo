@@ -3,16 +3,10 @@
     color: #eee !important;
 }
 
-.night-mode #left {
-    background: #232323 !important;
-}
-
-.night-mode #logo {
-    background: #222 !important;
-}
-
+.night-mode #top,
+.night-mode #left,
 .night-mode #menu {
-    background: #181818 !important;
+    background: #000 !important;
 }
 
 .night-mode .item,
@@ -27,4 +21,20 @@
 
 .night-mode .line {
     background: #333 !important;
+}
+
+/* .night-mode #topics {
+    background: #181818 !important;
+} */
+
+.night-mode #topics button,
+.night-mode #search i,
+.night-mode #add {
+    background: #333 !important;
+    color: #eee !important;
+}
+
+.night-mode #topics button:hover {
+    background: #444 !important;
+    transition: 0.5s;
 }
